@@ -1,0 +1,29 @@
+.default {
+  background: #FFFFFF;
+  color: #5A6A9D;
+  cursor: pointer;
+  max-height: 48px;
+  border: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.primary {
+  background: #128C7E;
+  color: #FFFFFF;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.text {
+  display: inline;
+  flex-grow: initial;
+  background: transparent;
+  padding: 0;
+}

@@ -1,0 +1,21 @@
+
+.root {
+  overflow-y: auto;
+  background: #E5DCD5CC;
+  background-image: url('./doodle.png');
+  flex-grow: 1;
+  padding: 0 48px;
+  background-size: 35%;
+}
+
+.buble {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.my {
+  justify-content: flex-end;
+  width: 100%;
+}

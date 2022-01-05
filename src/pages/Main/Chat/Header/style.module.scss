@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  background-color: #F7F7FC;
+  width: 100%;
+  padding: 16px 24px;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.userInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 8px;
+}
+
+.indicators {
+  display: flex;
+  align-items: center;
+  color: #6E7FA9;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  background-color: #128C7E;
+  clip-path: circle(40%);
+}
+
+.indicatorMessage {
+  margin-left: 8px;
+}

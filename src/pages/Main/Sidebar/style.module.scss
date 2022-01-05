@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5FAFC;
+  padding: 20px 20px 0px;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.item {
+  margin-top: 24px;
+}
