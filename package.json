@@ -11,6 +11,8 @@
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^12.1.7",
     "parcel": "^2.0.1",
     "prettier": "^2.5.1",
     "sass": "^1.45.0",
@@ -30,6 +32,11 @@
     "react-router-dom": "6",
     "yup": "^0.32.11"
   },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "yarn lint"
+    ]
+  },
   "alias": {
     "src": "./src",
     "assets": "./src/assets"
@@ -37,6 +44,7 @@
   "scripts": {
     "start": "parcel --port=3000",
     "build": "parcel build",
-    "lint": "eslint -c .eslintrc --ext .tsx --ext .ts ./src/"
+    "lint": "eslint -c .eslintrc --ext .tsx --ext .ts ./src/ --fix",
+    "prepare": "husky install"
   }
 }

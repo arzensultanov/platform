@@ -10,7 +10,8 @@ interface buttonGroupInterface {
 type activeButtonIndex = number;
 
 function ButtonGroup({ children, className }: buttonGroupInterface) {
-  const [activeButtonIndex, setActiveButtonIndex] = useState<activeButtonIndex>(0);
+  const [activeButtonIndex, setActiveButtonIndex] =
+    useState<activeButtonIndex>(0);
 
   function onClick(
     activeButtonIndex: activeButtonIndex,
